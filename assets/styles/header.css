@@ -9,4 +9,18 @@ header.top{
     justify-content:space-between ;
     align-items: center;
     padding: var(---padding-x);
+    border-bottom: 1px solid var(--color-gray-2);
+}
+header .top .left{
+    display:flex;
+    gap: 1rem;
+}
+
+header .top .left a{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+header .top .right{
+    font-size: 0.8rem;
 }

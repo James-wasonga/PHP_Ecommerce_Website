@@ -7,3 +7,8 @@
     box-sizing: border-box;
     font-family:sora ; 
 }
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
